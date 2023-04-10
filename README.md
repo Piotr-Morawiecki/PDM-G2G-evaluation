@@ -19,10 +19,10 @@ The main directory includes the following scripts:
 
 | Filename | Short description | Figures recreated |
 | ---      | ---       | ---       |
-| MODELS/PDM.m | Class implementing PDM implementation from [3]       | - |
-| MODELS/G2G.m | Class implementing Grid-to-Grid (G2G) model from [4] | - |
-| MODELS/Catchment1D.m | Class implementing 1D physical benchmark model from [5] | - |
-| MODELS/MvG_model.m | Class implementing the Mualem-Van Genuchten model used in Catchment1D class | - |
+| MODELS/PDM.m | Class implementing the PDM implementation from [3]       | - |
+| MODELS/G2G.m | Class implementing the Grid-to-Grid (G2G) model from [4] | - |
+| MODELS/Catchment1D.m | Class implementing the 1D physical benchmark model from [5] | - |
+| MODELS/MvG_model.m | Class implementing the Mualem-Van Genuchten model used in the 'Catchment1D' class | - |
 | Physical_benchmarks.m | Generates physical benchmark hydrographs with varying P and P0 | - |
 | Physical_drying_scenario.m | Generates physical benchmark hydrograph for the drying scenario | Fig. 9 in [2] |
 | PDM_regimes.m | Illustrates three regimesof the PDM | Fig. 5 in [1] |
