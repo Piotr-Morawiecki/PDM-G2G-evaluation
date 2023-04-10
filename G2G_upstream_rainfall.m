@@ -1,6 +1,6 @@
 % ---------------------------
 %
-% Script name: G2G_upstream_rainfall_scenario.R
+% Script name: G2G_upstream_rainfall.R
 %
 % Purpose of script:  Script demonstrates differences in behaviour of the
 %                     Grid-to-Grid model and physical benchmark model when
