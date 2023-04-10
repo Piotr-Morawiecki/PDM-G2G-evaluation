@@ -19,22 +19,16 @@ The main directory includes the following scripts:
 
 | Filename | Short description | Figures recreated |
 | ---      | ---       | ---       |
-| G2G_drying_scenario.m |  | Fig. 5, 6 in [2] |
-| G2G_P_dependance.m |  | Fig. 3 in [2] |
-| G2G_P0_depandance.m |  | Fig. 4 in [2] |
-| G2G_upstream_rainfall_scenario.m |  | Fig. 7, 8 in [2] |
-| PDM_P_dependance.m |  | Fig. 9, 11 in [1] |
-| PDM_P0_dependance.m |  | Fig. 8, 10 in [1] |
-| PDM_regimes.m |  | Fig. 5 in [1] |
-| PDM_timescales.m |  | Fig. 6 in [1] |
-| Physical_benchmarks.m |  | - |
-| Physical_drying_scenario.m |  | Fig. 9 in [2] |
-
-
-
-(†) processing.R script requires internet access to import the data via NRFA API; however the repository already includes preprocessed data generated in 2023, so the other scripts can be run without a need to rerun this script
-
-Fig. 3 and 4 were generated using the code from: https://github.com/Piotr-Morawiecki/benchmark-catchment-model
+| G2G_drying_scenario.m | Compares G2G results with physical benchmarks for the drying scenario | Fig. 5, 6 in [2] |
+| G2G_P_dependance.m | Compares G2G results with physical benchmarks for varying simulated rainfall P | Fig. 3 in [2] |
+| G2G_P0_depandance.m | Compares G2G results with physical benchmarks for varying mean rainfall P0 | Fig. 4 in [2] |
+| G2G_upstream_rainfall.m | Illustrates differences between the surface flow model used G2G and physical models when applied to an upstream rainfall scenario | Fig. 7, 8 in [2] |
+| PDM_P_dependance.m | Compares PDM results with physical benchmarks for varying simulated rainfall P  | Fig. 9, 11 in [1] |
+| PDM_P0_dependance.m | Compares PDM results with physical benchmarks for varying mean rainfall P0 | Fig. 8, 10 in [1] |
+| PDM_regimes.m | Illustrates three regimesof the PDM | Fig. 5 in [1] |
+| PDM_timescales.m | Illustrates three distinct timescales characterising the PDM | Fig. 6 in [1] |
+| Physical_benchmarks.m | Generates physical benchmark hydrographs with varying P and P0 | - |
+| Physical_drying_scenario.m | Generates physical benchmark hydrograph for the drying scenario | Fig. 9 in [2] |
 
 ## References
 
